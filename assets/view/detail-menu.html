@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Menu - IDigitalCo. Resto</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/detail-menu.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="detail__header">
+        <a href="../../order.html" class="back__btn">
+            <i class='bx bx-chevron-left'></i>
+        </a>
+        <div class="header__actions">
+            <button class="share__btn">
+                <i class='bx bx-share-alt'></i>
+            </button>
+            <button class="favorite__btn">
+                <i class='bx bx-heart'></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="detail__container">
+        <!-- Image Gallery -->
+        <div class="menu__gallery">
+            <img src="../img/p1.png" alt="Menu Image" class="main__image">
+            <div class="gallery__thumbs">
+                <img src="../img/p1.png" alt="Thumbnail 1" class="active">
+                <img src="../img/p2.png" alt="Thumbnail 2">
+                <img src="../img/p3.png" alt="Thumbnail 3">
+            </div>
+        </div>
+
+        <!-- Menu Info -->
+        <div class="menu__info">
+            <div class="menu__header">
+                <div class="title__section">
+                    <h1>Nasi Goreng Spesial</h1>
+                    <div class="badge__container">
+                        <span class="menu__badge">Spicy</span>
+                        <span class="menu__badge bestseller">Best Seller</span>
+                    </div>
+                </div>
+                <div class="rating__section">
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <span>4.8</span>
+                    </div>
+                    <span class="reviews">(200+ Reviews)</span>
+                </div>
+            </div>
+
+            <div class="price__section">
+                <div class="price">
+                    <h2>Rp 35.000</h2>
+                    <span class="sold">1.2k+ Terjual</span>
+                </div>
+                <div class="quantity">
+                    <button class="qty__btn minus">
+                        <i class='bx bx-minus'></i>
+                    </button>
+                    <span class="qty__number">1</span>
+                    <button class="qty__btn plus">
+                        <i class='bx bx-plus'></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="description">
+                <h3>Deskripsi</h3>
+                <p>Nasi goreng spesial dengan campuran daging ayam cincang, telur, dan sayuran segar. Dibumbui dengan rempah-rempah pilihan dan disajikan dengan telur mata sapi.</p>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="additional__info">
+                <div class="info__item">
+                    <i class='bx bx-time-five'></i>
+                    <div class="info__text">
+                        <span class="label">Waktu Persiapan</span>
+                        <span class="value">15-20 menit</span>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <i class='bx bx-restaurant'></i>
+                    <div class="info__text">
+                        <span class="label">Porsi</span>
+                        <span class="value">1 Orang</span>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <i class='bx bx-flame'></i>
+                    <div class="info__text">
+                        <span class="label">Kalori</span>
+                        <span class="value">650 kkal</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reviews Summary -->
+            <!-- <div class="reviews__section">
+                <div class="reviews__header">
+                    <h3>Reviews</h3>
+                    <a href="#" class="view__all">Lihat Semua</a>
+                </div>
+                <div class="review__item">
+                    <img src="../img/r1.jpg" alt="Reviewer" class="reviewer__img">
+                    <div class="review__content">
+                        <div class="reviewer__info">
+                            <h4>John Doe</h4>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <p>Rasanya enak, porsinya pas, dan pelayanannya cepat!</p>
+                        <span class="review__date">2 hari yang lalu</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Bottom Action -->
+    <div class="bottom__action">
+        <div class="total__price">
+            <span class="label">Total Harga</span>
+            <span class="value">Rp 35.000</span>
+        </div>
+        <button class="order__btn">
+            Pesan Sekarang
+            <i class='bx bx-cart'></i>
+        </button>
+    </div>
+</body>
+</html>

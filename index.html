@@ -10,7 +10,10 @@
 
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
-
+    
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+    
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,14 +30,13 @@
         <ul class="nav__list">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#shop">Our Shop</a></li>
-            <li><a href="#review">Our Customer</a></li>
+            <li><a href="#shop"> Shop</a></li>
+            <li><a href="#review"> Customer</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="nav__icons">
-            <a href="#"><i class='bx bx-search'></i></a>
-            <a href="#"><i class='bx bx-cart'></i></a>
+            <a href="order.html"><i class='bx bx-cart'></i></a>
             <div class="bx bx-menu" id="menu__icon"></div>
         </div>
     </header>
@@ -44,8 +46,26 @@
         <div class="home__text">
             <h1>IDigitalCo. <span>Resto</span> <br> Nusantara</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-            <a href="#" class="btn"> View Menu <i class='bx bxs-right-arrow'></i></a>
-            <a href="#" class="btn2"> Order Now</a>
+            <a href="#shop" class="btn"> View Menu
+                <svg
+                    class="button__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z"
+                      fill="var(--text-color)"
+                    ></path>
+                    <path
+                      d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
+                      fill="var(--text-color)"
+                    ></path>
+                  </svg>
+            </a>
+            <a href="order.html" class="btn2"> Order Now</a>
         </div>
 
         <div class="home__img">
@@ -83,22 +103,40 @@
         <div class="about__text">
             <h2>Living well begins <br>with eating well.</br></h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi exercitationem, aspernatur maiores, quibusdam quos dicta rem aut fuga at cum blanditiis doloribus impedit odio minus.<br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-            <a href="#" class="btn">Explore Story <i class='bx bxs-right-arrow'></i></a>
+            <a href="#" class="btn">Explore Story 
+                <svg
+                    class="button__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z"
+                      fill="var(--text-color)"
+                    ></path>
+                    <path
+                      d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
+                      fill="var(--text-color)"
+                    ></path>
+                  </svg>
+            </a>
         </div>
     </section>
 
-    <!-- Our Shop -->
+    <!--  Shop -->
     <section class="shop" id="shop">
         <div class="middle__text">
-            <h4>Our Shop</h4>
-            <h2>Let's Check Our Popular Menu</h2>
+            <h4>Menu</h4>
+            <h2>Let's Check  Popular Menu</h2>
         </div>
 
         <div class="shop__content">
             <div class="row">
                 <img src="assets/img/p1.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Beef Burger</h3>
+                <p>Burger dengan daging sapi</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -106,7 +144,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -117,8 +155,8 @@
 
             <div class="row">
                 <img src="assets/img/p2.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Hotdog</h3>
+                <p>Hotdog dengan saus tomat</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -126,7 +164,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -137,8 +175,8 @@
 
             <div class="row">
                 <img src="assets/img/p3.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Spageti</h3>
+                <p>Spageti dengan saus tomat</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -146,7 +184,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -157,8 +195,8 @@
 
             <div class="row">
                 <img src="assets/img/p4.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Pizza</h3>
+                <p>Pizza dengan saus tomat dan keju</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -166,87 +204,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <div class="top__icon">
-                    <a href="#"><i class='bx bx-heart'></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="assets/img/p1.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                
-                <div class="in__text">
-                    <div class="price">
-                        <h6>Rp 15.000</h6>
-                    </div>
-
-                    <div class="s__btnn">
-                        <a href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <div class="top__icon">
-                    <a href="#"><i class='bx bx-heart'></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="assets/img/p2.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                
-                <div class="in__text">
-                    <div class="price">
-                        <h6>Rp 15.000</h6>
-                    </div>
-
-                    <div class="s__btnn">
-                        <a href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <div class="top__icon">
-                    <a href="#"><i class='bx bx-heart'></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="assets/img/p3.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                
-                <div class="in__text">
-                    <div class="price">
-                        <h6>Rp 15.000</h6>
-                    </div>
-
-                    <div class="s__btnn">
-                        <a href="#">Order Now</a>
-                    </div>
-                </div>
-
-                <div class="top__icon">
-                    <a href="#"><i class='bx bx-heart'></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="assets/img/p4.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                
-                <div class="in__text">
-                    <div class="price">
-                        <h6>Rp 15.000</h6>
-                    </div>
-
-                    <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -257,8 +215,8 @@
             
             <div class="row">
                 <img src="assets/img/p1.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Beef Burger</h3>
+                <p>Burger dengan daging sapi</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -266,7 +224,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -277,8 +235,8 @@
 
             <div class="row">
                 <img src="assets/img/p2.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Hotdog</h3>
+                <p>Hotdog dengan saus tomat</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -286,7 +244,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -297,8 +255,8 @@
 
             <div class="row">
                 <img src="assets/img/p3.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Spageti</h3>
+                <p>Spageti dengan saus tomat</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -306,7 +264,7 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -317,8 +275,8 @@
 
             <div class="row">
                 <img src="assets/img/p4.png" alt="Shop Image">
-                <h3>Blueberry Honey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <h3>Pizza</h3>
+                <p>Pizza dengan saus tomat dan keju</p>
                 
                 <div class="in__text">
                     <div class="price">
@@ -326,7 +284,87 @@
                     </div>
 
                     <div class="s__btnn">
-                        <a href="#">Order Now</a>
+                        <a href="order.html">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="top__icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="assets/img/p1.png" alt="Shop Image">
+                <h3>Beef Burger</h3>
+                <p>Burger dengan daging sapi</p>
+                
+                <div class="in__text">
+                    <div class="price">
+                        <h6>Rp 15.000</h6>
+                    </div>
+
+                    <div class="s__btnn">
+                        <a href="order.html">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="top__icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="assets/img/p2.png" alt="Shop Image">
+                <h3>Hotdog</h3>
+                <p>Hotdog dengan saus tomat</p>
+                
+                <div class="in__text">
+                    <div class="price">
+                        <h6>Rp 15.000</h6>
+                    </div>
+
+                    <div class="s__btnn">
+                        <a href="order.html">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="top__icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="assets/img/p3.png" alt="Shop Image">
+                <h3>Spageti</h3>
+                <p>Spageti dengan saus tomat</p>
+                
+                <div class="in__text">
+                    <div class="price">
+                        <h6>Rp 15.000</h6>
+                    </div>
+
+                    <div class="s__btnn">
+                        <a href="order.html">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="top__icon">
+                    <a href="#"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="assets/img/p4.png" alt="Shop Image">
+                <h3>Pizza</h3>
+                <p>Pizza dengan saus tomat dan keju</p>
+                
+                <div class="in__text">
+                    <div class="price">
+                        <h6>Rp 15.000</h6>
+                    </div>
+
+                    <div class="s__btnn">
+                        <a href="order.html">Order Now</a>
                     </div>
                 </div>
 
@@ -337,15 +375,33 @@
         </div>
 
         <div class="row__btn">
-            <a href="#" class="btn">View All Menu <i class='bx bxs-right-arrow'></i></a>
+            <a href="#" class="btn">View All Menu 
+                <svg
+                    class="button__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z"
+                      fill="var(--text-color)"
+                    ></path>
+                    <path
+                      d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
+                      fill="var(--text-color)"
+                    ></path>
+                  </svg>
+            </a>
         </div>
     </section>
 
     <!-- Review -->
     <section class="review" id="review">
         <div class="middle__text">
-            <h4>Our Customer</h4>
-            <h2>What Our Customer Say</h2>
+            <h4> Customer</h4>
+            <h2>What  Customer Say</h2>
         </div>
 
         <div class="review__content">
@@ -353,7 +409,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
                 <div class="in__box">
                     <div class="bx__img">
-                        <img src="assets/img/r11.jpg" alt="Review Image">
+                        <img src="assets/img/r1.jpg" alt="Review Image">
                     </div>
 
                     <div class="bxx__text">
@@ -373,7 +429,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
                 <div class="in__box">
                     <div class="bx__img">
-                        <img src="assets/img/r22.jpg" alt="Review Image">
+                        <img src="assets/img/r2.jpg" alt="Review Image">
                     </div>
 
                     <div class="bxx__text">
@@ -393,7 +449,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
                 <div class="in__box">
                     <div class="bx__img">
-                        <img src="assets/img/r33.jpg" alt="Review Image">
+                        <img src="assets/img/r3.jpg" alt="Review Image">
                     </div>
 
                     <div class="bxx__text">
@@ -454,8 +510,43 @@
     </section>
     
     <!-- Scroll Reveal -->
-    <a href="#home" class="scroll__top">
-        <i class='bx bx-up-arrow-alt'></i>
+    <a href="#home" class="scroll__top" id="scroll-top">
+        <!-- <i class="uil uil-arrow-down home__scroll-arrow" style="color: var(--bg-color);"></i> -->
+        <svg
+            width="40px"
+            height="40px"
+            class="home__scroll-mouse"
+            viewBox="0 0 247 390"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-miterlimit: 1.5;
+            "
+        >
+            <path
+                class="wheel"
+                d="M123.359,79.775l0,72.843"
+                style="
+                fill: none;
+                stroke: var(--text-color);
+                stroke-width: 20px;
+                "
+            ></path>
+            <path
+                id="mouse"
+                d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
+                style="
+                fill: none;
+                stroke: var(--text-color);
+                stroke-width: 20px;
+                "
+            ></path>
+        </svg>
     </a>
 
     <script src="https://unpkg.com/scrollreveal"></script>
