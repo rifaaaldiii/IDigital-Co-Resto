@@ -57,6 +57,7 @@ header.sticky .logo {
   color: var(--bg-color);
 }
 
+
 /* HEADER */
 
 header {
@@ -638,8 +639,7 @@ header {
     display: block;
     padding: 0.5rem;
     margin: 1rem;
-    /* border-bottom: 1px solid var(--main-color); */
-    color: var(--text-color);
+    color: var(--bg-color);
   }
 
   .nav__list.open {
