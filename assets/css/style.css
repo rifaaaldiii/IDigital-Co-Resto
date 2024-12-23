@@ -11,8 +11,8 @@
 }
 
 :root {
-  --main-color: #dfb925;
-  --light-color: #f3d24f;
+  --main-color: #ff6b6b;
+  --light-color: #ff0000;
   --text-color: #061316;
   --other-color: #212121;
   --second-color: #9e9e9e;
@@ -78,7 +78,7 @@ header {
   display: flex;
   align-items: center;
   color: var(--text-color);
-  font-size: 33px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -172,7 +172,7 @@ header {
 }
 
 .home__text h1 {
-  font-size: var(--big-font);
+  font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 1rem;
@@ -208,7 +208,7 @@ header {
   color: var(--text-color);
 }
 
-.btn i {
+.btn svg {
   vertical-align: middle;
   margin-left: 9px; 
   font-size: 22px;
@@ -446,6 +446,7 @@ header {
 
 .bx__img img {
   width: 100%;
+  max-width: 70px;
   height: auto;
   border-radius: 50%;
 }
@@ -544,7 +545,7 @@ header {
   display: flex;
   align-items: center;
   color: var(--text-color);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -564,14 +565,23 @@ header {
   right: 3%;
   background: var(--main-color);
   border-radius: 10px;
+  z-index: 10001;
+  width: 50px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.scroll__top i {
-  font-size: var(--h2-font);
-  color: var(--text-color);
-  padding: 12px 5px;
+.scroll__top svg {
+  color: var(--main-color);
   transition: all .50s ease;
+}
+
+.scroll__top .wheel {
   animation: updown 1s ease infinite;
+  transition: all .50s ease;
 }
 
 @keyframes updown {
@@ -579,7 +589,7 @@ header {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(40px);
   }
 }
 

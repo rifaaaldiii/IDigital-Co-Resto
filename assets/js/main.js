@@ -1,7 +1,7 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
-    header.classList.toggle("sticky", window.scrollY > 80);
+    header.classList.toggle("sticky", window.scrollY >100);
 });
 
 let menu = document.querySelector('#menu__icon');

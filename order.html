@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Menu - IDigitalCo. Resto</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/order.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="order__header">
+        <a href="index.html" class="back__btn">
+            <i class='bx bx-chevron-left'></i>
+        </a>
+        <h2>Order Menu</h2>
+        <div class="cart__icon">
+            <i class='bx bx-cart'></i>
+            <span class="cart__count">0</span>
+        </div>
+    </header>
+
+    <!-- Promo Slider -->
+    <div class="slider__container">
+        <div class="slider__wrapper">
+            <div class="slider__item">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="Promo 1">
+                <div class="slider__content">
+                    <h3>Special Ramadhan</h3>
+                    <p>Diskon 20% untuk menu berbuka</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330" alt="Promo 2">
+                <div class="slider__content">
+                    <h3>Paket Hemat</h3>
+                    <p>Beli 2 gratis 1 menu pilihan</p>
+                </div>
+            </div>
+            <div class="slider__dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search__container">
+        <div class="search__box">
+            <i class='bx bx-search'></i>
+            <input type="text" placeholder="Cari menu favorit Anda...">
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+        <div class="category__scroll">
+            <button class="category__btn active">Semua</button>
+            <button class="category__btn">Makanan</button>
+            <button class="category__btn">Minuman</button>
+            <button class="category__btn">Dessert</button>
+            <button class="category__btn">Snack</button>
+        </div>
+    </div>
+
+    <!-- Most Popular -->
+    <div class="popular__section">
+        <div class="section__header">
+            <h2>Most Popular</h2>
+            <a href="#" class="view__all">View All</a>
+        </div>
+        
+        <div class="popular__scroll">
+            <a href="assets/view/detail-menu.html" class="popular__card">
+                <div class="popular__image">
+                    <img src="assets/img/p1.png" alt="Popular Menu">
+                    <span class="popular__badge">Best Seller</span>
+                </div>
+                <div class="popular__info">
+                    <h3>Beef Burger</h3>
+                    <div class="popular__meta">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <span class="dot__separator">•</span>
+                        <span class="sold">1.2k+ Terjual</span>
+                    </div>
+                    <div class="popular__price">
+                        <span>Rp 45.000</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="assets/view/detail-menu.html" class="popular__card">
+                <div class="popular__image">
+                    <img src="assets/img/p2.png" alt="Popular Menu">
+                    <span class="popular__badge">Trending</span>
+                </div>
+                <div class="popular__info">
+                    <h3>Hotdog</h3>
+                    <div class="popular__meta">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.8</span>
+                        </div>
+                        <span class="dot__separator">•</span>
+                        <span class="sold">800+ Terjual</span>
+                    </div>
+                    <div class="popular__price">
+                        <span>Rp 35.000</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="assets/view/detail-menu.html" class="popular__card">
+                <div class="popular__image">
+                    <img src="assets/img/p3.png" alt="Popular Menu">
+                    <span class="popular__badge">Favorite</span>
+                </div>
+                <div class="popular__info">
+                    <h3>Spageti</h3>
+                    <div class="popular__meta">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <span class="dot__separator">•</span>
+                        <span class="sold">500+ Terjual</span>
+                    </div>
+                    <div class="popular__price">
+                        <span>Rp 25.000</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="assets/view/detail-menu.html" class="popular__card">
+                <div class="popular__image">
+                    <img src="assets/img/p4.png" alt="Popular Menu">
+                    <span class="popular__badge">Favorite</span>
+                </div>
+                <div class="popular__info">
+                    <h3>Pizza</h3>
+                    <div class="popular__meta">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <span class="dot__separator">•</span>
+                        <span class="sold">500+ Terjual</span>
+                    </div>
+                    <div class="popular__price">
+                        <span>Rp 15.000</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="menu__container">
+        <div class="section__header">
+            <h2>All Menu</h2>
+            <div class="menu__filter">
+                <i class='bx bx-filter-alt'></i>
+                <span>Filter</span>
+            </div>
+        </div>
+
+        <div class="menu__grid">
+            <!-- Menu Item -->
+            <a href="assets/view/detail-menu.html" class="menu__card">
+                <div class="menu__image">
+                    <img src="assets/img/p1.png" alt="Menu Item">
+                    <div class="favorite__btn">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <span class="menu__badge">Spicy</span>
+                </div>
+                <div class="menu__info">
+                    <div class="menu__rating">
+                        <i class='bx bxs-star'></i>
+                        <span>4.8</span>
+                    </div>
+                    <h3>Beef Burger</h3>
+                    <p>Burger dengan daging sapi pilihan</p>
+                    <div class="menu__price">
+                        <div class="price__info">
+                            <span class="price">Rp 35.000</span>
+                            <span class="sold">200+ Terjual</span>
+                        </div>
+                        <button class="add__btn">
+                            <i class='bx bx-plus'></i>
+                        </button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Menu Item -->
+            <a href="assets/view/detail-menu.html" class="menu__card">
+                <div class="menu__image">
+                    <img src="assets/img/p2.png" alt="Menu Item">
+                    <div class="favorite__btn">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <span class="menu__badge">Best Seller</span>
+                </div>
+                <div class="menu__info">
+                    <div class="menu__rating">
+                        <i class='bx bxs-star'></i>
+                        <span>4.9</span>
+                    </div>
+                    <h3>Hotdog</h3>
+                    <p>Hotdog dengan daging sapi pilihan</p>
+                    <div class="menu__price">
+                        <div class="price__info">
+                            <span class="price">Rp 28.000</span>
+                            <span class="sold">500+ Terjual</span>
+                        </div>
+                        <button class="add__btn">
+                            <i class='bx bx-plus'></i>
+                        </button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Menu Item -->
+            <a href="assets/view/detail-menu.html" class="menu__card">
+                <div class="menu__image">
+                    <img src="assets/img/p3.png" alt="Menu Item">
+                    <div class="favorite__btn">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <span class="menu__badge">New</span>
+                </div>
+                <div class="menu__info">
+                    <div class="menu__rating">
+                        <i class='bx bxs-star'></i>
+                        <span>4.7</span>
+                    </div>
+                    <h3>Spageti</h3>
+                    <p>Spageti dengan daging sapi pilihan</p>
+                    <div class="menu__price">
+                        <div class="price__info">
+                            <span class="price">Rp 8.000</span>
+                            <span class="sold">1k+ Terjual</span>
+                        </div>
+                        <button class="add__btn">
+                            <i class='bx bx-plus'></i>
+                        </button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Menu Item -->
+            <a href="assets/view/detail-menu.html" class="menu__card">
+                <div class="menu__image">
+                    <img src="assets/img/p4.png" alt="Menu Item">
+                    <div class="favorite__btn">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <span class="menu__badge">New</span>
+                </div>
+                <div class="menu__info">
+                    <div class="menu__rating">
+                        <i class='bx bxs-star'></i>
+                        <span>4.7</span>
+                    </div>
+                    <h3>Pizza</h3>
+                    <p>Pizza dengan daging sapi pilihan</p>
+                    <div class="menu__price">
+                        <div class="price__info">
+                            <span class="price">Rp 15.000</span>
+                            <span class="sold">1k+ Terjual</span>
+                        </div>
+                        <button class="add__btn">
+                            <i class='bx bx-plus'></i>
+                        </button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <!-- <nav class="bottom__nav">
+        <a href="#" class="nav__item active">
+            <i class='bx bx-home-alt'></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nav__item">
+            <i class='bx bx-search'></i>
+            <span>Search</span>
+        </a>
+        <a href="#" class="nav__item">
+            <i class='bx bx-heart'></i>
+            <span>Favorites</span>
+        </a>
+        <a href="#" class="nav__item">
+            <i class='bx bx-user'></i>
+            <span>Profile</span>
+        </a>
+    </nav> -->
+
+    <script src="assets/js/order.js"></script>
+</body>
+</html>
